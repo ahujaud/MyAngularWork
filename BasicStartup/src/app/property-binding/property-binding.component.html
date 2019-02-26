@@ -1,9 +1,0 @@
-<div>
-    <label for="username" class="username-label">
-        username:
-        <input type="text" name="username" id="username"(input)="onInput($event)" [(ngModel)]="username"/>
-    </label> 
-    <button [disabled]="!username" (click)="clearUsername($event)" class="username-clear">Clear Username</button>
-</div>
-<p class="username-text">{{ username }}</p>
-
